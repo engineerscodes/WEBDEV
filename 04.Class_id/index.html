@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Classs and Id
+	</title>
+	<style type="text/css">
+		img {
+			height: 100px;
+			width:100px;
+			background: black;
+		}
+		img#logo2{
+			height: 50px;
+			width: 50px;
+			background: red;
+		}
+             
+		img#test{    /*this will not reflect because there is no id=test*/
+			height: 150px;
+			width: 200px;
+			background: pink;
+		}
+		img.test,h2.test,h3.test,div.test{
+			height: 150px;
+			width: 200px;
+			background: pink;
+		}
+	</style>
+	<!--this will not reflect because there is no id=test-->
+</head>
+<body>
+   <div class="Container">
+   	<div id="logo">
+   		
+   	</div>
+   </div>
+   <h1 class="Container"></h1>
+   <img src="#" id="logo">
+   <img src="#">
+   <img src="#">  <!-- all 3 above img tag will have heigth :100px,width 100px and black color  even th eimg tag with id="logo" because of img-->
+   <img src="#" id="logo2"> <!-- this element has h-50px,width:50px,color;red;-->
+   <img src="#" class="test">
+   <img src="#" class="test"> <!-- this element has h-150px,width:200px,color;pink;-->
+   <h1 class="test"> </h1> <!--this will not show pink color because h1.test is not mentioned-->
+   <h2 class="test"></h2> <!-- this element has h-150px,width:200px,color;pink;-->
+   <h3 class="test"></h3>
+   <div class="test">
+   	
+
+   </div>
+</body>
+</html>
