@@ -16,11 +16,14 @@
        <video width="500" height="500" controls>
        	<source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
        		Your browser does not support the video tag
+       	</video>
       </section>
      <section>
-       <video width="500" height="500" controls autoplay> <!-- auto play not working in chrome-->
+       <video width="500" height="500" controls autoplay muted> <!-- working in firefox,auto play not working in chrome only mute autoplay works in chrome-->
        	<source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
        		Your browser does not support the video tag
+       	</video>
+           <!---https://stackoverflow.com/questions/17994666/video-auto-play-is-not-working-in-safari-and-chrome-desktop-browser-->
       </section>
 </body>
 </html>
