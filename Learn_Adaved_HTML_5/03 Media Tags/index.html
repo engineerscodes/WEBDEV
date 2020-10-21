@@ -22,8 +22,21 @@
        <video width="500" height="500" controls autoplay muted> <!-- working in firefox,auto play not working in chrome only mute autoplay works in chrome-->
        	<source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
        		Your browser does not support the video tag
+
        	</video>
            <!---https://stackoverflow.com/questions/17994666/video-auto-play-is-not-working-in-safari-and-chrome-desktop-browser-->
       </section>
+      <section>
+      	<video width="320" height="240" controls>
+  <source src="https://www.w3schools.com/html/movie.mp4" type="video/mp4">
+  <track src="fgsubtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+  <track src="fgsubtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian">
+       </video>
+      </section>
+      <!--The <track> tag specifies text tracks for <audio> or <video> elements.
+
+       This element is used to specify subtitles, caption files or other files containing text, that should be visible when the media is playing.
+
+       Tracks are formatted in WebVTT format (.vtt files).-->
 </body>
 </html>
