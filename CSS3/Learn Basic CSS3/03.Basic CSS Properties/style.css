@@ -1,0 +1,32 @@
+div {
+    position: relative;
+    background: black;
+    top: 100px;
+    bottom: 200px;
+    height: 150px;
+    width: 150px;
+    }
+
+    div#border
+    {
+    	background: white;
+    	position: relative;
+         height: 150px;
+        width: 150px;
+        border: 19px solid red;
+        top: 150px;
+        bottom: 50px;
+    }
+h1
+{
+    background: blueviolet;
+    text-align: center;
+    font-weight: 800;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+    font-family: roboto;
+    font-size: 1cm;
+    margin: 10px;  /*Invisible box 10px from North ,south ,west ,east*/
+    padding: 20px; /*all direction 20px */
+   
+}
