@@ -1,3 +1,7 @@
+//typeof//returns type of variables
+//instanceof //true if its a object of that class 
+
+
 var x = 5, y = 10, z = 15;
 
 x + y; //returns 15
