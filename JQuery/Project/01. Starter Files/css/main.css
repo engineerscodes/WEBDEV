@@ -1,0 +1,52 @@
+.container {
+	margin: auto 0;
+}
+
+button {
+    height: 43px;
+    border: none;
+    background: darkgreen;
+    color: white;
+    width: 180px;
+}
+
+section, h1 {
+	text-align:center;
+}
+
+h1 {
+    color: white;
+    line-height: 3;
+}
+
+h2 {
+	color: white;
+	line-height: 2.5;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    background: darkgreen;
+    margin-top: -22px;
+}
+
+#results {
+    width: 100%;
+    height: 60px;
+    background: darkgreen;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: none;    
+}
+
+p.here {
+    font-size: 1.5em;
+    color: darkgreen;
+    font-weight: bolder;
+}
+
+input#Age,input#retirementAge {
+    border: 2px solid black;
+    text-align: center;
+}
