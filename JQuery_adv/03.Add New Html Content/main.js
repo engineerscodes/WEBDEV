@@ -7,3 +7,14 @@ function appendText()
 
 	$("body").append(t1,t2,t3); //adding new element to the page using jquery
 }
+
+
+$(document).ready(function(){
+  $("#before").click(function(){
+     $("img").before("<b>Before</b>");
+  });
+
+   $("#after").click(function(){
+     $("img").after("<i>After</i>");
+  });
+});
