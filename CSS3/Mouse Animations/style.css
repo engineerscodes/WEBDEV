@@ -1,0 +1,46 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    flex: 1;
+}
+body{
+    padding: 10px;
+    cursor: none;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    flex: 0.5;
+}
+.cursor{
+    width: 2rem;
+    height: 2rem;
+    border: 2px solid black ;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    transition: all 0.3s ease;
+    transition-property: background,transform;
+    transform-origin: 100% 100%;
+    z-index: -1;
+    backdrop-filter: grayscale();
+}
+
+.link-grow{
+    transform: scale(2);
+    background-color:black;
+   
+}
+.hover-link{
+    color:cornsilk;
+}
+
+.font-cover img{
+    position: relative;
+    z-index: -3;
+}
