@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linke | Style</title>
+    <style>
+         a{
+             display: block;
+
+         }
+         .one:link{         /*Unvisted LinkStyling */
+            color: darkorange;
+            text-decoration: none;
+         }
+         .one:visited{
+             color: red;
+         }
+         .two:hover{
+             color:green;
+             text-decoration: none;
+         }
+
+         .three:link{         /*Unvisted LinkStyling */
+            color: rgb(255, 0, 179) !important;
+            text-decoration: none;
+            font-size: x-large;
+         }
+         .three:visited{
+             color: red;
+         }
+    </style>
+</head>
+<body>
+    <div>
+      <a class="one" href="http://naveennaveen.me/">One</a>
+      <a class="two" href="https://www.linkedin.com/feed/?trk=onboarding-landing">Two</a>
+      <a class="three" href="https://www.hackerrank.com">Three</a>
+
+    </div>
+</body>
+</html>
