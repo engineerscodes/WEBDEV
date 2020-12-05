@@ -7,21 +7,44 @@
     <style>
        p.one{
           
-            -moz-border-image: url("./tenor.gif") 
-            11 11 11 11 stretch;;
-            -moz-border-image: url("./tenor.gif")
-            11 11 11 11 stretch;;
-
+           border: 50px solid royalblue;
+        /*Must use all 3*/
+           -moz-border-image: url("./tenor.gif")
+           11 11 11 11 stretch;
+            -webkit-border-image: url("./tenor.gif") /*Important */
+            11 11 11 11 stretch;
             border-image: url("./tenor.gif")
             11 11 11 11 stretch;
+
        }
+       p.two{
+          
+          border: 50px solid royalblue;
+       /*Must use all 3*/
+          -moz-border-image: url("./tenor.gif")
+          11 11 11 11 stretch;
+           -webkit-border-image: url("./tenor.gif") /*Important */
+           11 11 11 11 stretch;
+           border-image: url("./tenor.gif")
+           11 11 11 11 stretch;
+
+      }
+      p.three{
+          
+         
+          -moz-border-image: url("./tenor.gif")
+          11 11 11 11 stretch;
+           -webkit-border-image: url("./tenor.gif") /*Important */
+           11 11 11 11 stretch;
+          
+      }
     </style>
 </head>
 <body>
     <main>
-        <p class="one">Hello</p>
-<p class="two"></p>
-<p class="three"></p>
+        <p class="one"></p>
+<p class="two">Hello</p>
+<p class="three">Only For Text</p>
     </main>
 </body>
 </html>
