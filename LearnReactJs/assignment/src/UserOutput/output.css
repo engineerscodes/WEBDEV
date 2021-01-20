@@ -1,0 +1,10 @@
+.output{
+
+
+    border: 3px solid rgb(86, 241, 86);
+    padding: 10px ;
+    margin:10px auto;
+    text-align: center;
+    display: block;
+    background-color:#ccc;
+}
