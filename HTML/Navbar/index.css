@@ -1,0 +1,160 @@
+*{  
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(80,195,93);
+background: linear-gradient(90deg, rgba(80,195,93,1) 15%, rgba(30,253,29,1) 32%, rgba(69,221,252,1) 70%);
+   height: 80px;
+}
+
+.Navlinks{
+    text-decoration: none;
+    display: inline;
+    padding: 5px;
+    margin: 10px;
+    text-transform: uppercase;
+   
+   
+}
+.logo{
+    text-transform: uppercase;
+    font-size: 20px;
+    display: inline;
+    margin-left: 80px;
+    padding: 5px;
+    
+}
+.logo  h1{
+    display: inline;
+}
+
+
+.List{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.List a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.Mobeldisplay{
+    display: none;
+}
+.Mobeldisplay div{
+    width: 25px;
+    height: 5px;
+  background-color: white;
+  margin: 5px;
+}
+
+
+
+
+@media only screen and (max-width: 1300px)
+{
+    .between{
+        display: none;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    nav{
+        justify-content: space-evenly;
+       align-items: center;
+    }
+}
+
+@media only screen and (max-width: 1100px){
+
+    .vit{
+        display: none;
+    }
+    .logo{
+        margin-left: 10px; 
+        font-size: 15px;
+       
+    }
+    .Navlinks{
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    nav{
+        justify-content:space-evenly;
+       align-items: center;
+    }
+    
+}
+
+@media only screen and (max-width: 860px){
+
+    .Home{
+        display: none;
+    }
+    
+}
+
+@media only screen and (max-width: 796px){
+     
+      body{
+          overflow-x: hidden;
+      }
+     
+
+    .List{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top:80px;
+        background: linear-gradient(90deg, rgba(80,195,93,1) 15%, rgba(30,253,29,1) 32%, rgba(69,221,252,1) 70%);
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+         transform: translateX(100%);
+         display: none;
+         
+         
+    }
+
+    .List-active{
+        transform: translateX(0%);
+        display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+        
+    }
+
+    .Home{
+        display: inline;
+    }
+
+    .Navlinks{
+       opacity: 0; 
+       
+    }
+    .Navlinks-active{
+        opacity: 1;
+    }
+  
+
+    .Mobeldisplay {
+        display: block;
+        cursor: pointer;
+    }
+
+    
+}
