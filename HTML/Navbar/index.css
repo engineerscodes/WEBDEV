@@ -135,6 +135,7 @@ background: linear-gradient(90deg, rgba(80,195,93,1) 15%, rgba(30,253,29,1) 32%,
          flex-direction: column;
          align-items: center;
          width: 100%;
+         
         
     }
 
@@ -148,6 +149,7 @@ background: linear-gradient(90deg, rgba(80,195,93,1) 15%, rgba(30,253,29,1) 32%,
     }
     .Navlinks-active{
         opacity: 1;
+        
     }
   
 
