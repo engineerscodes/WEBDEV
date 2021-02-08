@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    margin: 50px ;
+    width: 500px;
+    height: 500px;
+}
