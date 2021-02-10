@@ -23,7 +23,7 @@ height: 200vh;
      font-size: larger;
      position :absolute;
      padding: 20px;
-    
+    top: 0%;
 }
 
 .n3{
@@ -40,4 +40,26 @@ height: 200vh;
      padding: 20px;
      position: sticky;
      top: 100px;
+}
+
+
+
+.n5 {
+    background: rgb(255, 0, 76);
+    font-size: larger;
+    padding: 200px;
+    margin: auto;
+    border: 20px solid black;
+    width: 100%;
+}
+
+.n6 {
+    background: rgb(0, 183, 255);
+    font-size: larger;
+    padding: 20px;
+    box-sizing: border-box;
+    padding: 100px;
+    width: 100%;
+      border: 20px solid black;
+
 }
