@@ -5,6 +5,7 @@
    padding: 20px;
    position: relative;
    top: 0px;
+height: 200vh;
 }
 
 .n1{
@@ -29,7 +30,7 @@
     background: rgb(187, 255, 0);
     font-size: larger;
     padding: 20px;
-   
+  
 
 }
 
@@ -37,4 +38,6 @@
      background: rgb(0, 255, 213);
      font-size: larger;
      padding: 20px;
+     position: sticky;
+     top: 100px;
 }
