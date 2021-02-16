@@ -53,7 +53,7 @@ console.log("CONST VALUE : "+values);
 let person ={
    name :"Naveen",
    Age  : 19
-}
+};
 //accesing the attributes
 //using dot
 person.name="PRAVEEN __JAMES";
@@ -74,7 +74,7 @@ console.log(person)
 //length of array can change and aslo can have mixed type!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 
-let elements =["dcfv","rcb","fev","rgffref"]
+let elements =["dcfv","rcb","fev","rgffref"];
 elements[0]=56
 elements[10]=9999
 console.log(elements)
@@ -83,4 +83,27 @@ console.log(elements.length);
 
 //functions
 
+function greets(){
+    alert("HELLO GUYS ! ITS VIRAT ");
+}
 
+greets();
+
+
+function greets_withName(name)
+{
+    alert(name)
+}
+
+greets_withName(person['name']);
+
+
+//return Values
+
+function squre(number)
+{
+    return (number*number);
+}
+
+let numb=squre(100000000);
+console.log("Sqaure is : "+numb)
